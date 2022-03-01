@@ -1,0 +1,50 @@
+body {
+    background-image: url("../img/bacground.jpg");
+    background-repeat: round;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(169, 169, 169, 0.664);
+    border-radius: 5px;
+    width: 99%;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    margin: auto 10px;
+    padding: 20px;
+}
+header img{
+    margin: 3px 10px;
+    border-radius: 5px;
+}
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 10px;
+    background-color: rgb(97, 191, 219);
+    border-radius: 5px;
+}
+.btn {
+    background-color: rgb(97, 191, 219);
+    padding: 10px;
+    border-radius: 5px;
+    color: blanchedalmond;
+}
+.contacto{
+    text-align: center;
+    margin: 30px 0;
+    padding: 10px;
+}
+footer {
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
