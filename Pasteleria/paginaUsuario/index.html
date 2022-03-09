@@ -4,61 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600;1,700&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Pastelaería</title>
 </head>
 <body>
-    <header>
-        <img src="./img/LogoPastel.jpg" alt="Logotipo Pasteelería" width="120px">
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="hacerPedido.html">Hacer pedido</a>
-        </nav>
+    <header class="contenedor">
+        <div class="cabecera">
+            <img src="./img/Logotipo.png" alt="Logotipo Pasteelería" width="90px">
+            <nav>
+                <a class="enlace active" href="index.html">Inicio</a>
+                <a class="enlace" href="menu.html">Menú</a>
+                <a class="enlace" href="hacerPedido.html">Hacer pedido</a>
+                <a class="enlace" href="hacerPedido.html">Contacto</a>
+            </nav>
+        </div>       
     </header>
     
-    <h1>Bienvenido Pastelería | ExplorPastel</h1>
-    <br>
-    <div>
-        <h2>Sabores de los pasteles</h2>
-        
-        <ul>
-            <li>Vainilla ------------------ $100</li>
-            <li>Chocolate ----------------- $110</li>
-            <li>Fresa --------------------- $110</li>
-            <li>limon --------------------- $123</li>
-        </ul>
-    <br>
-    <h2>Decoración de para los pasteles</h2>
-        <ul>
-            <li>Frutas ---------------------$68</li>
-            <li>Fondant---------------------$50</li>
-            <li>chantilly ------------------$78</li>
-            <li>Merengue -------------------$90</li>
-            <li>Caramelo suave -------------$89</li>
-        </ul>
-    <br>
-    <h2>Sabores para el relleno de los pasteles</h2>
-    <ul>
-        <li>Mermelada ---------------------$68</li>
-        <li>Ganache---------------------$50</li>
-        <li>Crema para batir ------------------$78</li>
-        <li>Merengue -------------------$90</li>
-        <li>Caramelo suave -------------$89</li>
-    </ul>
-    </div>
-    <div class="contacto">
-        <h2>Contacto</h2>
-        <p>Dirección: Huautla, Hidalgo</p>
-        <p>Telfono: 78374753</p>
-        <p>Horario de atención: 9:00a.m. - 19:00p.m.</p>
-    </div>  
-    <footer>
+    <main class="contenedor">
+        <h1 class="title">Bienvenido a la Pastelería | ExploraPastel</h1>
+        <div class="about">            
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa tempore delectus architecto voluptatum esse voluptatibus, nesciunt nihil minima alias quae facilis suscipit provident assumenda iure, mollitia repellendus, laboriosam placeat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum ipsa tempore delectus architecto voluptatum esse voluptatibus, nesciunt nihil minima alias quae facilis suscipit provident assumenda iure, mollitia repellendus, laboriosam placeat.
+            </p>
+            
+            <img  class="pastel_img" src="./img/pasteleria.png" alt="Imagen de un pastel">
+        </div>       
+    </main>  
+    
+    <!--Footer-->
+    <footer class="contenedor">
         <p>&copy; Magdiel Andrés Castellanos</p>
-        <div>
-            <p>Siguenos e nuestro redes sociales:</p>
-            <a href=""><img src="./img/facebook.png" alt="Facebook" width="50px"></a>
-            <a href=""><img src="./img/twitter.png" alt="Twitter" width="50px"></a>
-            <a href=""><img src="./img/whatsapp.png" alt="Whatsapp" width="50px"></a>
+        <div class="redes_sociales">
+            <p class="subtitle_redes">Siguenos en las redes sociales:</p>
+            <a class="icono_redes" href=""><img src="./img/facebook.png" alt="Facebook" width="50px"></a>
+            <a class="icono_redes" href=""><img src="./img/twitter.png" alt="Twitter" width="50px"></a>
+            <a class="icono_redes" href=""><img src="./img/whatsapp.png" alt="Whatsapp" width="50px"></a>
         </div>
     </footer>
 </body>
