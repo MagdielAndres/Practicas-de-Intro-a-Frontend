@@ -19,7 +19,12 @@ p {
     text-shadow: 2px 2px 5px #573cb9;
     
 }
-
+.atras_circulo {
+    position: absolute;
+    left: 56px;
+    top: 67px;
+    z-index: -1;
+}
 .contenedor {
     position: relative;
     margin: 5px 80px;
@@ -76,6 +81,12 @@ nav {
     text-shadow: 2px 2px 5px #573cb9;
     margin: 30px 30px;
     padding: 66px 34px; 
+    background-color: #f88ed457;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-top: 3px solid #573cb9;
+    border-bottom:3px solid #573cb9;
+    border-radius: 10px;
        
 }
 .pastel_img{
@@ -259,18 +270,29 @@ textarea {
     top: 111px;
     opacity: 0.8;
 }
+
 /* Contacto */
 .contacto {
     display: flex;
     justify-content: center;
 }
 .img_contacto {
+    border-radius: 50%;
+    border-bottom:3px solid #573cb9;
+    border-top:3px solid #573cb9;
+    margin-top: 50px;
     width: 400px;
     height: 400px;
 }
 .about_cont {
     margin: 0 10px;
     padding: 5px;
+    background-color: #f88ed457;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-top: 3px solid #573cb9;
+    border-bottom:3px solid #573cb9;
+    border-radius: 10px;
 }
 .titlecon {
     font-size: 2.4rem;
