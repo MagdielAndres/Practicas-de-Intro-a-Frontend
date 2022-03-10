@@ -4,49 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600;1,700&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Panel existencia de Ingredientes</title>
+    <title>Ingredientes en existencia</title>
 </head>
 <body>
-    <header>
-        <img src="./img/LogoPastel.jpg" alt="Logotipo Pasteelería" width="120px">
-        <nav>
-            <a href="index.html">Inicio</a>
-            
-        </nav>
-    </header>
+    <img class="atras_circulo" src="./img/ciculos.png" alt="Circulos">
+    <img class="img_atras" src="./img/probandopastel.jpg" alt="Probando el pastel">
+    <header class="contenedor">
+        <div class="cabecera">
+            <img src="./img/Logotipo.png" alt="Logotipo Pasteelería" width="90px">
+            <nav>
+                <a class="enlace" href="index.html">Pedidos</a>
+                <a class="enlace active" href="existencia.html">En existencia</a>
+                <a class="enlace" href="contacto.html">Contacto</a>
+            </nav>
+        </div>       
+    </header>  
+
+    <main class="contenedor">
+        <h1 class="title">Ingredientes en existencia</h1>
+        <section class="contenedor-card">
+            <div class="card">
+                <h2 class="subtitle">Sabores en existencia</h2>
+                <p>Vainilla ------------------ 50%</p>
+                <p>Chocolate ----------------- 60%</p>
+                <p>Fresa --------------------- 20%</p>
+                <p>limon --------------------- 40%</p>
+            </div>
+            <div class="card">
+                <h2 class="subtitle">Decoración en exitencia</h2>
+                <p>Frutas ---------------------20kg</p>
+                <p>Fondant---------------------40%</p>
+                <p>chantilly ------------------50%</p>
+                <p>Merengue -------------------50%</p>
+                <p>Caramelo suave -------------40kg</p>
+            </div>
+            <div class="card">
+                <h2 class="subtitle">Relleno en exitencia</h2>
+                <p>Mermelada ------------------20kg</p>
+                <p>Garnacha--------------------40%</p>
+                <p>Crema para batir------------50%</p>
+                <p>Merengue--------------------50%</p>
+                <p>Caramelo suave -------------40kg</p>
+            </div>
+        </section>
+
+        <!--Contacto-->
+        <section class="contacto2 contenedor">
+            <h2>Contacto</h2>
+            <p>Dirección: Huautla, Hidalgo</p>
+            <p>Telfono: 78374753</p>
+            <p>Horario de atención: 9:00a.m. - 19:00p.m.</p>
+        </section> 
+    </main>      
     
-    <h1>Panel existencia de Ingredientes | ExplorPastel</h1>
-    <hr>
-    <br>
-    <div class="contenedor-card">
-        <div class="card">
-            <h2>Sabores en existencia</h2>       
-            <ul>
-                <li>Vainilla ------------------ 50%</li>
-                <li>Chocolate ----------------- 60%</li>
-                <li>Fresa --------------------- 20%</li>
-                <li>limon --------------------- 40%</li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2>Decoración en exitencia</h2>
-            <ul>
-                <li>Frutas ---------------------20kg</li>
-                <li>Fondant---------------------40%</li>
-                <li>chantilly ------------------50%</li>
-                <li>Merengue -------------------50%</li>
-                <li>Caramelo suave -------------40kg</li>
-            </ul>
-        </div>
-    </div> 
-    <div class="contacto">
-        <h2>Contacto</h2>
-        <p>Dirección: Huautla, Hidalgo</p>
-        <p>Telfono: 78374753</p>
-        <p>Horario de atención: 9:00a.m. - 19:00p.m.</p>
-    </div>  
-    <hr>
     <footer>
         <p>&copy; Magdiel Andrés Castellanos</p>
         <div>

@@ -4,116 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,600;1,700&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
-    <title>Panel Pedidos</title>
+    <title>Pedidos</title>
 </head>
 <body>
-    <header>
-        <img src="./img/LogoPastel.jpg" alt="Logotipo Pasteelería" width="120px">
-        <nav>
-            <a href="index.html">Inicio</a>
-            <a href="existencia.html">Ingredientes en existencia</a>
-        </nav>
-    </header>
+    <img class="atras_circulo" src="./img/ciculos.png" alt="Circulos">
+    <img class="img_atras" src="./img/probandopastel.jpg" alt="Probando el pastel">
     
-    <h1>Panel de pedidos | ExplorPastel</h1>
-    <br>
-        
-    <div class="contenedor-card">
-        
-        <form action="" class="card">
-            <ul>Datos de usuario y pedido:
-                <ul>
-                    <li>nombre: Magdiel andres</li>
-                    <li>Telfono: 773554379</li>
-                    <li>Correo: Magdielandres@gmail.com</li>
-                    <li>Dirección: Huautla, Hidalgo</li>                    
-                </ul> 
-                <dl>
-                    <dt>Descripción del pastel:</dt>
-                    <dd> Tiene que llevar una leyenda "SuperExplore".</dd>
-                    <dt>Sabor del pastel:</dt>
-                    <dd> Chocolate, fresa.</dd>
-                    <dt> Decoración del pastel:</dt>
-                    <dd> Frutas, chantillyn.</dd>
-                </dl>           
-            </ul>
+    <header class="contenedor">
+        <div class="cabecera">
+            <img src="./img/Logotipo.png" alt="Logotipo Pasteelería" width="90px">
+            <nav>
+                <a class="enlace active" href="index.html">Pedidos</a>
+                <a class="enlace" href="existencia.html">En existencia</a>
+                <a class="enlace" href="contacto.html">Contacto</a>
+            </nav>
+        </div>       
+    </header>     
+
+    <main class="contenedor">
+        <h1 class="title">Panel de pedidos | ExploraPastel</h1>
+        <section class="contenedor-card">        
+            <div class="card">
+                <h2 class="subtitle">PEDIDO - 01</h2>
+                <p>Nombre: Magdiel andrés</p>
+                <p>Telefono: 773554379</p>
+                <p>Correo: Magdielandres@gmail.com</p>
+                <p>Dirección: Huautla, Hidalgo</p>
+
+                <h3 class="subtitle_card">Descripción del pastel:</h3>
+                <p>Tiene que llevar una leyenda "SuperExplore".</p>
+                <h3 class="subtitle_card">Sabor del pastel:</h3>
+                <p>Chocolate, fresa.</p>
+                <h3 class="subtitle_card">Decoración del pastel:</h3>
+                <p>Frutas, chantillyn.</p>
+
+                <label class="estatus" for="estatus">Estatus del pedido</label>
+                <select id="estatus" name="estatus">
+                    <option value="seleccione">Seleccione</option>
+                    <option value="preparando">Preparando</option>
+                    <option value="campechanos">Entregado</option>
+                </select>
+            </div>
+
+            <div class="card">
+                <h2 class="subtitle">PEDIDO - 02</h2>
+                <p>Nombre: Magdiel andrés</p>
+                <p>Telefono: 773554379</p>
+                <p>Correo: Magdielandres@gmail.com</p>
+                <p>Dirección: Huautla, Hidalgo</p>
+
+                <h3 class="subtitle_card">Descripción del pastel:</h3>
+                <p>Tiene que llevar una leyenda "SuperExplore".</p>
+                <h3 class="subtitle_card">Sabor del pastel:</h3>
+                <p>Chocolate, fresa.</p>
+                <h3 class="subtitle_card">Decoración del pastel:</h3>
+                <p>Frutas, chantillyn.</p>
+
+                <label class="estatus" for="estatus">Estatus del pedido</label>
+                <select id="estatus" name="estatus">
+                    <option value="seleccione">Seleccione</option>
+                    <option value="preparando">Preparando</option>
+                    <option value="campechanos">Entregado</option>
+                </select>
+            </div>
+
+            <div class="card">
+                <h2 class="subtitle">PEDIDO - 03</h2>
+                <p>Nombre: Magdiel andrés</p>
+                <p>Telefono: 773554379</p>
+                <p>Correo: Magdielandres@gmail.com</p>
+                <p>Dirección: Huautla, Hidalgo</p>
+
+                <h3 class="subtitle_card">Descripción del pastel:</h3>
+                <p>Tiene que llevar una leyenda "SuperExplore".</p>
+                <h3 class="subtitle_card">Sabor del pastel:</h3>
+                <p>Chocolate, fresa.</p>
+                <h3 class="subtitle_card">Decoración del pastel:</h3>
+                <p>Frutas, chantillyn.</p>
+
+                <label class="estatus" for="estatus">Estatus del pedido</label>
+                <select id="estatus" name="estatus">
+                    <option value="seleccione">Seleccione</option>
+                    <option value="preparando">Preparando</option>
+                    <option value="campechanos">Entregado</option>
+                </select>
+            </div>
             
-            <label for="estatus">Estatus del pedido</label>
-            <select id="estatus" name="estatus">
-                <option value="seleccione">seleccione</option>
-                <option value="preparando">Preparando</option>
-                <option value="campechanos">Entregado</option>
-            </select>
-        </form>
-        <form action="" class="card">
-            <ul>Datos de usuario y pedido:
-                <ul>
-                    <li>nombre: Magdiel andres</li>
-                    <li>Telfono: 773554379</li>
-                    <li>Correo: Magdielandres@gmail.com</li>
-                    <li>Dirección: Huautla, Hidalgo</li>                    
-                </ul> 
-                <dl>
-                    <dt>Descripción del pastel:</dt>
-                    <dd> Tiene que llevar una leyenda "SuperExplore".</dd>
-                    <dt>Sabor del pastel:</dt>
-                    <dd> Chocolate, fresa.</dd>
-                    <dt> Decoración del pastel:</dt>
-                    <dd> Frutas, chantillyn.</dd>
-                </dl>           
-            </ul>
+            <div class="card">
+                <h2 class="subtitle">PEDIDO - 04</h2>
+                <p>Nombre: Magdiel andrés</p>
+                <p>Telefono: 773554379</p>
+                <p>Correo: Magdielandres@gmail.com</p>
+                <p>Dirección: Huautla, Hidalgo</p>
+
+                <h3 class="subtitle_card">Descripción del pastel:</h3>
+                <p>Tiene que llevar una leyenda "SuperExplore".</p>
+                <h3 class="subtitle_card">Sabor del pastel:</h3>
+                <p>Chocolate, fresa.</p>
+                <h3 class="subtitle_card">Decoración del pastel:</h3>
+                <p>Frutas, chantillyn.</p>
+
+                <label class="estatus" for="estatus">Estatus del pedido</label>
+                <select id="estatus" name="estatus">
+                    <option value="seleccione">Seleccione</option>
+                    <option value="preparando">Preparando</option>
+                    <option value="campechanos">Entregado</option>
+                </select>
+            </div>           
             
-            <label for="estatus">Estatus del pedido</label>
-            <select id="estatus" name="estatus">
-                <option value="seleccione">seleccione</option>
-                <option value="preparando">Preparando</option>
-                <option value="campechanos">Entregado</option>
-            </select>
-        </form>
-        <form action="" class="card">
-            <ul>Datos de usuario y pedido:
-                <ul>
-                    <li>nombre: Magdiel andres</li>
-                    <li>Telfono: 773554379</li>
-                    <li>Correo: Magdielandres@gmail.com</li>
-                    <li>Dirección: Huautla, Hidalgo</li>                    
-                </ul> 
-                <dl>
-                    <dt>Descripción del pastel:</dt>
-                    <dd> Tiene que llevar una leyenda "SuperExplore".</dd>
-                    <dt>Sabor del pastel:</dt>
-                    <dd> Chocolate, fresa.</dd>
-                    <dt> Decoración del pastel:</dt>
-                    <dd> Frutas, chantillyn.</dd>
-                </dl>           
-            </ul>
-            
-            <label for="estatus">Estatus del pedido</label>
-            <select id="estatus" name="estatus">
-                <option value="seleccione">seleccione</option>
-                <option value="preparando">Preparando</option>
-                <option value="campechanos">Entregado</option>
-            </select>
-        </form>
-    </div>     
-    <div class="contacto">
-        <h2>Contacto</h2>
-        <p>Dirección: Huautla, Hidalgo</p>
-        <p>Telfono: 78374753</p>
-        <p>Horario de atención: 9:00a.m. - 19:00p.m.</p>
-    </div>  
-    
-    <br><br>
-    <footer>
+        </section>     
+                
+        <!--Contacto-->
+        <section class="contacto2 contenedor">
+            <h2>Contacto</h2>
+            <p>Dirección: Huautla, Hidalgo</p>
+            <p>Telfono: 78374753</p>
+            <p>Horario de atención: 9:00a.m. - 19:00p.m.</p>
+        </section> 
+    </main>
+    <!--Footer-->
+    <footer class="contenedor">
         <p>&copy; Magdiel Andrés Castellanos</p>
-        
-        <div>
-            <p>Siguenos e nuestro redes sociales:</p>
-            <a href=""><img src="./img/facebook.png" alt="Facebook" width="50px"></a>
-            <a href=""><img src="./img/twitter.png" alt="Twitter" width="50px"></a>
-            <a href=""><img src="./img/whatsapp.png" alt="Whatsapp" width="50px"></a>
+        <div class="redes_sociales">
+            <p class="subtitle_redes">Siguenos en las redes sociales:</p>
+            <a class="icono_redes" href=""><img src="./img/facebook.png" alt="Facebook" width="50px"></a>
+            <a class="icono_redes" href=""><img src="./img/twitter.png" alt="Twitter" width="50px"></a>
+            <a class="icono_redes" href=""><img src="./img/whatsapp.png" alt="Whatsapp" width="50px"></a>
         </div>
-    </footer>
+    </footer>       
 </body>
 </html>
